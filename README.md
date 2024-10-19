@@ -38,13 +38,13 @@ The blockchain component is implemented using Solidity and Web3.py. Fraudulent t
 # Output
 
 ## Correlation Matrix
-![correlation](financial-fraud-blockchain\correlation.jpg)
+![correlation](https://github.com/user-attachments/assets/af67d9ca-fc59-49bb-8b44-214888177680)
 
 ## Confusion Matrix
-![Confusion](financial-fraud-blockchain\confusion.png)
+![confusion](https://github.com/user-attachments/assets/ddbf27a3-ae9a-489f-8acd-1503a7ce89ec)
 
 ## Classification Report
-![classification](financial-fraud-blockchain\classification.png)
+![classification](https://github.com/user-attachments/assets/2f41e521-65b9-4d73-b680-bc67a675f92d)
 
 ## ROC AUC Score
-![rocauc](financial-fraud-blockchain\Rocauc.png)
+![Rocauc](https://github.com/user-attachments/assets/68655ad5-8f65-4be0-88ec-308a854a375e)
