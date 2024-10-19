@@ -38,7 +38,7 @@ The blockchain component is implemented using Solidity and Web3.py. Fraudulent t
 # Output
 
 ## Correlation Matrix
-![correlation](https://www.bing.com/images/blob?bcid=r.Ebhqrhp6QHQX0v8CU4V6wtimu......yc)
+![correlation](financial-fraud-blockchain\correlation.jpg)
 
 ## Confusion Matrix
 ![Confusion](financial-fraud-blockchain\confusion.png)
