@@ -4,33 +4,33 @@ This project analyzes financial transactions using machine learning to detect fr
 # Technologies Used
 Programming Languages: Python, Solidity
 ## Frameworks:
-Python libraries: Scikit-learn, Pandas, Matplotlib, Seaborn, Imbalanced-learn
-Ethereum Smart Contracts using Solidity
-Blockchain: Ethereum
-Machine Learning: Random Forest Classifier
+### Python libraries: Scikit-learn, Pandas, Matplotlib, Seaborn, Imbalanced-learn
+### Ethereum Smart Contracts using Solidity
+### Blockchain: Ethereum
+### Machine Learning: Random Forest Classifier
 ## Tools:
-Ganache: Local Ethereum blockchain for testing
-Remix: Smart contract development environment
-Ngrok: To expose localhost to the internet
-JupyterLab: Running on IBM LinuxONE Server
-MetaMask: Ethereum wallet integration
+<strong>Ganache:</strong> Local Ethereum blockchain for testing
+<strong>Remix:</strong> Smart contract development environment
+<strong>Ngrok:</strong> To expose localhost to the internet
+<strong>JupyterLab:</strong> Running on IBM LinuxONE Server
+<strong>MetaMask:</strong> Ethereum wallet integration
 
 # Data Sources
-Synthetic Financial Datasets: Used for training the fraud detection model. This dataset includes various financial transactions, some of which are labeled as fraud.
-Dataset link: https://www.kaggle.com/datasets/sriharshaeedala/financial-fraud-detection-dataset
+<strong>Synthetic Financial Datasets:</strong> Used for training the fraud detection model. This dataset includes various financial transactions, some of which are labeled as fraud.
+<strong>Dataset link:</strong> https://www.kaggle.com/datasets/sriharshaeedala/financial-fraud-detection-dataset
 
 # Architecture
-Data Preprocessing: Preprocessing and handling imbalanced data using SMOTE (Synthetic Minority Over-sampling Technique).
-Machine Learning: A Random Forest Classifier is trained on the dataset to predict fraudulent transactions.
-Blockchain Logging: Fraudulent transactions are logged securely on the Ethereum blockchain using a smart contract.
+<strong>Data Preprocessing:</strong> Preprocessing and handling imbalanced data using SMOTE (Synthetic Minority Over-sampling Technique).
+<strong>Machine Learning:</strong> A Random Forest Classifier is trained on the dataset to predict fraudulent transactions.
+<strong>Blockchain Logging:</strong> Fraudulent transactions are logged securely on the Ethereum blockchain using a smart contract.
 
 # Machine Learning Model
-The fraud detection model is built using a Random Forest Classifier. The model predicts whether a transaction is fraudulent based on features like transaction type, amount, and origin/destination accounts.
+<h5>The fraud detection model is built using a Random Forest Classifier. The model predicts whether a transaction is fraudulent based on features like transaction type, amount, and origin/destination accounts.</h5>
 
-The trained model's performance can be evaluated using:
-        1. Confusion Matrix
-        2. Classification Report
-        3. ROC AUC Score
+<h5>The trained model's performance can be evaluated using:</h5>
+        <li>Confusion Matrix</li>
+        <li>Classification Report</li>
+        <li>ROC AUC Score</li>
 
 # Blockchain Integration
 The blockchain component is implemented using Solidity and Web3.py. Fraudulent transactions are logged on the Ethereum blockchain, ensuring that the data is immutable and transparent. The system utilizes Ganache for testing, Ngrok for exposing the local blockchain, and MetaMask for managing Ethereum accounts.
